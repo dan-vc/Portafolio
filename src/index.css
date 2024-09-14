@@ -25,9 +25,6 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  place-content: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -90,22 +87,33 @@ button:hover {
   margin: 0 auto;
 }
 
-#hero{
-  padding: 5em 0;
+#hero {
+  padding: 10em 0;
 }
 
-#hero .container{
+#hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#hero .description{
   max-width: 32rem;
-  margin-left: 0;
 }
 
-#hero p{
+#hero p {
   margin-top: 1em;
   font-size: 20px;
 }
 
-#hero p strong{
+#hero p strong {
   color: #f2d253;
+}
+
+#hero .avatar {
+  border-radius: 50%;
+  width: 150px;
+  box-shadow: 0 0 50px #f2b25347;
 }
 
 /* Laboral Experience */
