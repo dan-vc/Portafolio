@@ -124,6 +124,7 @@ nav {
 nav ul {
   display: flex;
   gap: 1em;
+  list-style: none;
 }
 
 nav ul a:hover {
