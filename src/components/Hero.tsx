@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="container">
         <div className='description'>
           <h1>Hola, soy Daniel</h1>
-          <p>Estudiante de <strong>Informática y Desarrollo de Aplicaciones Web.</strong> Apasionado por la tecnología. Conocimiento en HTML, CSS y JS. Frameworks como Angular y React.</p>
+          <p>Estudiante de <strong>Informática y Desarrollo de Aplicaciones Web.</strong> Apasionado por la tecnología. Conocimientos en HTML, CSS, JS, PHP, MySQL, Github y frameworks como Angular y React.</p>
         </div>
         <img src="/img/pf-picture.jpeg" alt="Avatar Image" className='avatar' />
       </div>
