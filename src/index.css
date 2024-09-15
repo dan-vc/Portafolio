@@ -45,19 +45,25 @@ a:hover {
   color: #f29553;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  line-height: 1.1;
+}
+
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
 }
 
 h2 {
   font-size: 2.8em;
-  line-height: 1.1;
 }
 
 h3 {
   font-size: 2.4em;
-  line-height: 1.1;
 }
 
 h4 {
@@ -206,15 +212,33 @@ footer {
 }
 
 .proyect-card {
+  background: var(--dark-2);
   margin-top: 2em;
+  border: 1px solid var(--light-30);
+  padding: 2em 1.5em;
+  border-radius: 32px;
+  transition: all ease .3s;
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2em;
 }
 
+.proyect-card:hover {
+  color: inherit;
+  opacity: inherit;
+  cursor: pointer;
+  scale: 1.01;
+}
+
 .proyect-card img {
+  aspect-ratio: 4/3;
+  object-fit: cover;
   border-radius: 32px;
-  border: 1px solid var(--light);
+}
+
+.proyect-card h4{
+  color: #ffffff;
 }
 
 .proyect-card .content {

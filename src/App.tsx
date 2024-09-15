@@ -9,6 +9,14 @@ function App() {
 
   return (
     <>
+
+    <nav>
+      <ul>
+        <li><a href="#experiencia-laboral">Experiencia</a></li>
+        <li><a href="#proyectos">Trabajos</a></li>
+      </ul>
+    </nav>
+
       <Hero />
 
       <WorkExperience />
@@ -18,7 +26,7 @@ function App() {
       <footer>
         <div className="container">
           <p>
-            © 2024 Daner. Esta web está inspirada en el porfolio de 
+            © 2024<a href="https://github.com/dan-vc">Daner</a>. Esta web está inspirada en el porfolio de 
             <a href="https://midu.dev/">midudev</a>
           </p>
           <a href="">Contacto</a>
