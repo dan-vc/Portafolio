@@ -17,6 +17,7 @@
 
   color: var(--light);
   background-color: var(--dark);
+  scroll-behavior: smooth;
 }
 
 * {
@@ -104,6 +105,29 @@ button:hover {
 section,
 footer {
   padding: 3em;
+}
+
+nav{
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+
+  background: var(--dark-2);
+  border: 1px solid var(--light-50);
+  box-shadow: 0 0 15px var(--light-10);
+  border-radius: 24px;
+  padding: .7em 1.5em;
+}
+
+nav ul{
+  display: flex;
+  gap: 1em;
+}
+
+nav ul a:hover{
+  color: #53d0f2;
 }
 
 #hero {
