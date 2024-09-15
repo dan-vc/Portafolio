@@ -11,7 +11,7 @@ export default function WorkExperience() {
         <ExperienceCard
           role='Desarrollador Web'
           enterprise='Tres media E.I.R.L'
-          time='Julio 2023 - Actualidad'
+          time='Julio 2024 - Actualidad'
           description='Participo en el desarrollo de distintos proyectos web, principalmente usando el gestor de contenido de Wordpress en conjunto de plugins como motionPage y BricksForge para animaciones basadas en Gsap, Polylang para manejar diferentes idiomas y con el tema Bricks Builder.'
         />
         <ExperienceCard
