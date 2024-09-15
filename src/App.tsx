@@ -1,4 +1,5 @@
 import './App.css'
+import briefcase from 'briefcase.svg'
 import ExperienceCard from './components/ExperienceCard'
 
 function App() {
@@ -18,7 +19,10 @@ function App() {
 
       <section id='experiencia-laboral'>
         <div className="container">
-          <h2>Experiencia laboral</h2>
+          <h2>
+            <img src={briefcase} alt="" />
+            Experiencia laboral
+          </h2>
           <ExperienceCard
             role='Desarrollador Web'
             enterprise='Tres media E.I.R.L'
