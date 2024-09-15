@@ -122,9 +122,10 @@ nav {
 }
 
 nav ul {
-  display: flex;
-  gap: 1em;
   list-style: none;
+  display: flex;
+  justify-items: center;
+  gap: 1em;
 }
 
 nav ul a:hover {
@@ -296,6 +297,10 @@ nav ul a:hover {
 .tag-item:hover {
   background: var(--light);
   color: var(--dark);
+}
+
+footer {
+  text-align: center;
 }
 
 footer .container {
