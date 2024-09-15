@@ -8,7 +8,7 @@ export default function Proyects() {
       <div className="container">
         <h2>Proyectos</h2>
 
-        <a className="proyect-card" href="https://www.frontendmentor.io/profile/dan-vc">
+        <a className="proyect-card" href="https://www.frontendmentor.io/profile/dan-vc" target="blank">
           <img src="/img/frontend-mentor.jpg" alt="" />
           <div className="content">
             <h4>Frontend Mentor Challenges</h4>
@@ -26,7 +26,7 @@ export default function Proyects() {
           </div>
         </a>
 
-        <a className="proyect-card" href="https://dan-vc.github.io/Proyecto-GitHub-Replica/">
+        <a className="proyect-card" href="https://dan-vc.github.io/Proyecto-GitHub-Replica/" target="blank">
           <img src="/img/github-replica.jpg" alt="" />
           <div className="content">
             <h4>Replica de Github Home</h4>
