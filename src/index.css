@@ -52,10 +52,12 @@ h1 {
 
 h2 {
   font-size: 2.8em;
+  line-height: 1.1;
 }
 
 h3 {
   font-size: 2.4em;
+  line-height: 1.1;
 }
 
 h4 {
@@ -94,11 +96,12 @@ button:hover {
 }
 
 section {
-  padding: 3em 0;
+  padding: 3em;
 }
 
 #hero {
-  padding: 10em 0;
+  padding-top: 10em;
+  padding-bottom: 7em;
 }
 
 #hero .container {
@@ -132,7 +135,7 @@ section {
 }
 
 /* Experience Card */
-.card {
+.experience-card {
   margin-left: 48px;
 
   display: grid;
@@ -143,7 +146,7 @@ section {
   position: relative;
 }
 
-.card header::before {
+.experience-card header::before {
   content: '';
   width: 2px;
   height: 100%;
@@ -153,7 +156,7 @@ section {
   left: -25px;
 }
 
-.card header .dot {
+.experience-card header .dot {
   width: .8em;
   aspect-ratio: 1;
   border-radius: 50%;
@@ -164,39 +167,39 @@ section {
   transform: translateX(-50%);
 }
 
-.card header .role,
-.card header .enterprise {
+.experience-card header .role,
+.experience-card header .enterprise {
   font-size: 1.4em;
   line-height: 1.2;
 }
 
-.card header .time {
+.experience-card header .time {
   font-size: .9em;
 }
 
-.card .description {
+.experience-card .description {
   padding-bottom: 5em;
 }
 
-.card:nth-child(even) header .dot {
+.experience-card:nth-child(even) header .dot {
   background: #535bf2;
   box-shadow: 0 0 30px 10px #535bf281;
 }
 
-.card:nth-child(even) header .role {
+.experience-card:nth-child(even) header .role {
   color: #535bf2;
 }
 
-.card:nth-child(odd) header .dot {
+.experience-card:nth-child(odd) header .dot {
   background: #5bf253;
   box-shadow: 0 0 30px 10px #63f25381;
 }
 
-.card:nth-child(odd) header .role {
+.experience-card:nth-child(odd) header .role {
   color: #5bf253;
 }
 
-.card:last-child header::before {
+.experience-card:last-child header::before {
   background: linear-gradient(var(--light-20) 70%,
       rgba(0, 0, 0, 0));
 }
@@ -208,9 +211,15 @@ section {
   gap: 2em;
 }
 
-.proyect-card img{
+.proyect-card img {
   border-radius: 32px;
   border: 1px solid var(--light);
+}
+
+.proyect-card .content{
+  display: grid;
+  align-content: start;
+  gap: .5em;
 }
 
 .tags {
@@ -233,18 +242,37 @@ section {
   gap: .5em;
 }
 
-.tag-item:hover{
+.tag-item:hover {
   background: var(--light);
   color: var(--dark);
 }
 
 
 @media (max-width: 768px) {
+
+  #hero .container {
+    flex-direction: column;
+    align-items: start;
+    gap: 2em;
+  }
+
+  #hero .avatar {
+    order: -1;
+  }
+
   section {
-    padding: .5em 1.5em;
+    padding: 1em 2em;
   }
 
   .card {
     grid-template-columns: 1fr;
+  }
+
+  .proyect-card{
+    grid-template-columns: 1fr;
+  }
+
+  .proyect-card img{
+    width: 500px;
   }
 }
