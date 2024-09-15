@@ -1,4 +1,5 @@
 import ExperienceCard from './components/ExperienceCard'
+import Hero from './components/Hero'
 import CSS from './components/icons/Css'
 import HTML5 from './components/icons/Html5'
 
@@ -8,15 +9,7 @@ function App() {
 
   return (
     <>
-      <section id='hero'>
-        <div className="container">
-          <div className='description'>
-            <h1>Hola, soy Daniel</h1>
-            <p>Estudiante de <strong>Informática y Desarrollo de Aplicaciones Web.</strong> Apasionado por la tecnología. Conocimiento en HTML, CSS y JS. Frameworks como Angular y React.</p>
-          </div>
-          <img src="/img/pf-picture.jpeg" alt="Avatar Image" className='avatar' />
-        </div>
-      </section>
+      <Hero />
 
       <section id='experiencia-laboral'>
         <div className="container">
@@ -49,7 +42,7 @@ function App() {
               <div className="tags">
                 <span className='tag-item'>
                   <HTML5 />
-                  CSS
+                  HTML5
                 </span>
                 <span className='tag-item'>
                   <CSS />

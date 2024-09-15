@@ -264,7 +264,7 @@ section {
     padding: 1em 2em;
   }
 
-  .card {
+  .experience-card {
     grid-template-columns: 1fr;
   }
 
