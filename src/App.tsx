@@ -14,6 +14,16 @@ function App() {
       <WorkExperience />
 
       <Proyects />
+
+      <footer>
+        <div className="container">
+          <p>
+            © 2024 Daner. Esta web está inspirada en el porfolio de 
+            <a href="https://midu.dev/">midudev</a>
+          </p>
+          <a href="">Contacto</a>
+        </div>
+      </footer>
     </>
   )
 }
