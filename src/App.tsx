@@ -1,7 +1,7 @@
-import ExperienceCard from './components/ExperienceCard'
 import Hero from './components/Hero'
 import CSS from './components/icons/Css'
 import HTML5 from './components/icons/Html5'
+import WorkExperience from './components/WorkExperience'
 
 
 function App() {
@@ -11,25 +11,7 @@ function App() {
     <>
       <Hero />
 
-      <section id='experiencia-laboral'>
-        <div className="container">
-          <h2>
-            Experiencia laboral
-          </h2>
-          <ExperienceCard
-            role='Desarrollador Web'
-            enterprise='Tres media E.I.R.L'
-            time='Julio 2023 - Actualidad'
-            description='Participo en el desarrollo de distintos proyectos web, principalmente usando el gestor de contenido de Wordpress en conjunto de plugins como motionPage y BricksForge para animaciones basadas en Gsap, Polylang para manejar diferentes idiomas y con el tema Bricks Builder.'
-          />
-          <ExperienceCard
-            role='Proximamente...'
-            enterprise=''
-            time=''
-            description='...'
-          />
-        </div>
-      </section>
+      <WorkExperience />
 
       <section id='proyectos'>
         <div className="container">
