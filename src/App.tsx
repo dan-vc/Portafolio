@@ -3,7 +3,6 @@ import ExperienceCard from './components/ExperienceCard'
 
 function App() {
 
-
   return (
     <>
       <section id='hero'>
