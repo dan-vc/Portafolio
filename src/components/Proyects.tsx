@@ -1,5 +1,7 @@
 import CSS from "./icons/Css";
 import HTML5 from "./icons/Html5";
+import JavaScript from "./icons/JavaScript";
+import Php from "./icons/Php";
 import ProyectCard from "./ProyectCard";
 
 export default function Proyects() {
@@ -38,6 +40,31 @@ export default function Proyects() {
             {
               component: <CSS />,
               name: 'CSS'
+            }
+          ]}
+        />
+
+        <ProyectCard
+          url='https://github.com/dan-vc/sistema_control_asistencia_mvc'
+          img='sistema-control-asistencia.png'
+          title='Sistema de Control de Asistencia - MVC'
+          content='Participé en el desarrollo de un sistema de control de asistencia para una institución educativa. Este proyecto fue desarrollado en PHP con el patrón de diseño MVC y usando una base de datos MySQL con una conexión mediante la interfaz PDO.'
+          tags={[
+            {
+              component: <HTML5 />,
+              name: 'HTML5'
+            },
+            {
+              component: <CSS />,
+              name: 'CSS'
+            },
+            {
+              component: <Php />,
+              name: 'PHP'
+            },
+            {
+              component: <JavaScript />,
+              name: 'JavaScript'
             }
           ]}
         />
