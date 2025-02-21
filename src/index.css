@@ -123,6 +123,8 @@ nav {
 
 nav ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   justify-items: center;
   gap: 1em;
@@ -285,6 +287,7 @@ nav ul a:hover {
   background: var(--dark-2);
   padding: 5px 15px;
   border-radius: 99rem;
+  font-size: 14px;
   border: 1px solid var(--light-50);
   box-shadow: 0 0 15px var(--light-10);
   cursor: pointer;
