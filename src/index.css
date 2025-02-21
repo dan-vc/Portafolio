@@ -277,6 +277,7 @@ nav ul a:hover {
 .tags {
   margin-top: 1em;
   display: flex;
+  flex-wrap: wrap;
   gap: 1em;
 }
 
