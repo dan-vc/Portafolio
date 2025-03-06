@@ -19,8 +19,6 @@ function App() {
         </ul>
       </nav>
 
-      <h1>Estoy en la rama de prueba</h1>
-
       <Hero />
 
       <WorkExperience />
