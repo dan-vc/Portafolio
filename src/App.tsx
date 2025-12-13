@@ -1,6 +1,7 @@
 
 import Hero from './components/Hero'
 import Proyects from './components/Proyects'
+import SkillsCarousel from './components/SkillsCarousel'
 import WorkExperience from './components/WorkExperience'
 
 
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <>
+      <SkillsCarousel />
 
       <nav>
         <ul>
@@ -28,8 +30,7 @@ function App() {
       <footer>
         <div className="container">
           <p>
-            © 2024<a href="https://github.com/dan-vc">Daner</a>. Esta web está inspirada en el porfolio de
-            <a href="https://midu.dev/">midudev</a>
+            © {new Date().getFullYear()}{" "}Desarrollado por<a href="https://github.com/dan-vc">Daniel Villafranqui.</a>
           </p>
           <a href="mailto:danedo20472@gmail.com">Contacto</a>
         </div>

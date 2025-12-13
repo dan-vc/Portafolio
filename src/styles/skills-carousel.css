@@ -1,0 +1,63 @@
+.skills-carousel {
+  position: fixed;
+  top: 0;
+  width: fit-content;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.skills-carousel.left {
+  left: 20px;
+}
+
+.skills-carousel.right {
+  right: 20px;
+}
+
+.skills-track {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.skills-track svg {
+  opacity: 0.8;
+  width: 48px;
+  height: auto;
+}
+
+/* Animaciones */
+.skills-track.up {
+  animation: scrollUp 25s linear infinite;
+}
+
+.skills-track.down {
+  animation: scrollDown 25s linear infinite;
+}
+
+@keyframes scrollUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scrollDown {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills-carousel {
+    display: none;
+  }
+}

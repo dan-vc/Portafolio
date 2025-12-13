@@ -1,34 +1,40 @@
-import { ReactNode } from "react";
+import { PropsWithChildren } from "react";
+import Github from "./icons/Github";
+import { Figma } from "./icons/Figma";
 
-type Props = {
-  url: string,
+type Props = PropsWithChildren<{
+  githubUrl?: string,
+  figmaUrl?: string,
   img: string,
   title: string,
   content: string,
-  tags: {
-    component: ReactNode,
-    name: string
-  }[]
-};
+}>;
 
-export default function ProyectCard({ url, img, title, content, tags }: Props) {
-  console.log(tags)
-
+export default function ProyectCard({ githubUrl, figmaUrl, img, title, content, children }: Props) {
   return (
-    <a className="proyect-card" href={url} target="blank">
-      <img src={`/img/${img}`} alt="" />
+    <div className="proyect-card">
+      <div className="media">
+        <img src={img} alt={title} />
+        <div className="links">
+          {githubUrl &&
+            <a href={githubUrl} target="_blank" className="link">
+              <Github />
+            </a>
+          }
+          {figmaUrl &&
+            <a href={figmaUrl} target="_blank" className="link">
+              <Figma />
+            </a>
+          }
+        </div>
+      </div>
       <div className="content">
         <h4>{title}</h4>
         <p>{content}</p>
         <div className="tags">
-          {tags.map(e => (
-            <span className='tag-item'>
-              {e.component}
-              {e.name}
-            </span>
-          ))}
+          {children}
         </div>
       </div>
-    </a>
+    </div>
   );
 }
