@@ -1,6 +1,6 @@
 import { SVGProps } from "react";
 
-export function Chartjs(props: SVGProps<SVGSVGElement>) {
+export default function Chartjs(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -23,7 +23,7 @@ export function Chartjs(props: SVGProps<SVGSVGElement>) {
         opacity=".8"
       ></path>
       <path
-        fill="#e7e9ed"
+        fill="currentColor"
         d="M64 128L8.566 96.001V32L64 0l55.434 32v64zM15.079 92.241L64 120.482l48.921-28.241V35.76L64 7.519L15.079 35.76Z"
       ></path>
     </svg>

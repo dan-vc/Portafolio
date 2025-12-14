@@ -1,11 +1,14 @@
-import { Chartjs } from "./icons/ChartJS";
-import { Gsap } from "./icons/Gsap";
+import Chartjs from "./icons/ChartJS";
+import CSS from "./icons/Css";
+import Gsap from "./icons/Gsap";
+import HTML5 from "./icons/Html5";
 import JavaScript from "./icons/JavaScript";
-import { Laravel } from "./icons/Laravel";
+import Laravel from "./icons/Laravel";
+import Mysql from "./icons/Mysql";
 import Php from "./icons/Php";
-import { Microsoftsqlserver } from "./icons/SqlServer";
-import { Tailwindcss } from "./icons/Tailwind";
-import { Threejs } from "./icons/ThreeJS";
+import Microsoftsqlserver from "./icons/SqlServer";
+import Tailwindcss from "./icons/Tailwind";
+import Threejs from "./icons/ThreeJS";
 import ProyectCard from "./ProyectCard";
 import Tag from "./Tag";
 
@@ -46,6 +49,7 @@ export default function Proyects() {
         </ProyectCard>
 
         <ProyectCard
+          url='https://codearquitect-threejs.netlify.app/'
           img='/img/code-arquitect-thumb.png'
           title='Landing interactiva con Three.js'
           content='Landing page experimental desarrollada para demostrar el uso básico de Three.js, integrando modelos 3D y animaciones en el navegador. Las transiciones y animaciones están gestionadas con GSAP, aportando fluidez y control sobre la interacción visual dentro de una experiencia web simple y moderna.'
@@ -64,7 +68,7 @@ export default function Proyects() {
           </Tag>
         </ProyectCard>
 
-        {/* <ProyectCard
+        <ProyectCard
           githubUrl='https://github.com/dan-vc/sistema_control_asistencia_mvc'
           img='/img/sistema-control-asistencia.png'
           title='Sistema de Control de Asistencia - MVC'
@@ -86,20 +90,17 @@ export default function Proyects() {
             <JavaScript />
             JavaScript
           </Tag>
-        </ProyectCard> */}
+          <Tag>
+            <Mysql />
+            MySQL
+          </Tag>
+        </ProyectCard>
 
         {/* <ProyectCard
           githubUrl='https://www.frontendmentor.io/profile/dan-vc'
           img='/img/frontend-mentor.jpg'
           title='Frontend Mentor Challenges'
           content='Soluciones a algunos desafios Frontend de la página Frontend mentor'
-        /> */}
-
-        {/* <ProyectCard
-          githubUrl='https://dan-vc.github.io/Proyecto-GitHub-Replica/'
-          img='/img/github-replica.jpg'
-          title='Replica de Github Home'
-          content='Este proyecto web es una replica de la pagina inicial de Github usando HTML y CSS. Me ayudó a practicar posiciones absolutas y relativas, flex, grid y estilos CSS en general.'
         /> */}
 
       </div>

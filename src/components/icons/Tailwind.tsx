@@ -1,6 +1,6 @@
 import { SVGProps } from "react";
 
-export function Tailwindcss(props: SVGProps<SVGSVGElement>) {
+export default function Tailwindcss(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

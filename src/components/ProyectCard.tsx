@@ -1,8 +1,10 @@
 import { PropsWithChildren } from "react";
 import Github from "./icons/Github";
-import { Figma } from "./icons/Figma";
+import Figma from "./icons/Figma";
+import BaselineOpenInNew from "./icons/BaselineOpenInNew";
 
 type Props = PropsWithChildren<{
+  url?: string,
   githubUrl?: string,
   figmaUrl?: string,
   img: string,
@@ -10,12 +12,17 @@ type Props = PropsWithChildren<{
   content: string,
 }>;
 
-export default function ProyectCard({ githubUrl, figmaUrl, img, title, content, children }: Props) {
+export default function ProyectCard({ url, githubUrl, figmaUrl, img, title, content, children }: Props) {
   return (
     <div className="proyect-card">
       <div className="media">
         <img src={img} alt={title} />
         <div className="links">
+          {url &&
+            <a href={url} target="_blank" className="link">
+              <BaselineOpenInNew />
+            </a>
+          }
           {githubUrl &&
             <a href={githubUrl} target="_blank" className="link">
               <Github />
