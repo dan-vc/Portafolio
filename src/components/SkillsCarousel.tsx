@@ -14,21 +14,23 @@ import Figma from "./icons/Figma";
 import Gsap from "./icons/Gsap";
 import HTML5 from "./icons/Html5";
 import MysqlWordmark from "./icons/MysqlWordmark";
+import { Git } from "./icons/Git";
 
 const skills = [
     Chartjs,
     CSS,
     Figma,
+    Git,
+    Github,
     Gsap,
     HTML5,
     JavaScript,
     Laravel,
+    MysqlWordmark,
     Php,
     Microsoftsqlserver,
-    MysqlWordmark,
     Tailwindcss,
     Threejs,
-    Github,
 ];
 
 export default function SkillsCarousel() {

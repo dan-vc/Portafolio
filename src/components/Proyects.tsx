@@ -1,12 +1,13 @@
 import Chartjs from "./icons/ChartJS";
 import CSS from "./icons/Css";
-import { Donut } from "./icons/Donut";
+import Donut from "./icons/Donut";
+import Git from "./icons/Git";
+import Github from "./icons/Github";
 import Gsap from "./icons/Gsap";
 import HTML5 from "./icons/Html5";
 import JavaScript from "./icons/JavaScript";
 import Laravel from "./icons/Laravel";
 import Mysql from "./icons/Mysql";
-import MysqlWordmark from "./icons/MysqlWordmark";
 import Php from "./icons/Php";
 import Microsoftsqlserver from "./icons/SqlServer";
 import Tailwindcss from "./icons/Tailwind";
@@ -43,6 +44,14 @@ export default function Proyects() {
           <Tag>
             <Mysql />
             MySQL
+          </Tag>
+          <Tag>
+            <Git />
+            Git
+          </Tag>
+          <Tag>
+            <Github />
+            Github
           </Tag>
         </ProyectCard>
 
