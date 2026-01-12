@@ -14,7 +14,7 @@ import Figma from "./icons/Figma";
 import Gsap from "./icons/Gsap";
 import HTML5 from "./icons/Html5";
 import MysqlWordmark from "./icons/MysqlWordmark";
-import { Git } from "./icons/Git";
+import Git from "./icons/Git";
 
 const skills = [
     Chartjs,
