@@ -342,7 +342,8 @@ nav ul a:hover {
   height: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
-  transition: all ease .3s;
+  object-position: top left;
+  transition: all ease .3s
 }
 
 .proyect-card h4 {
@@ -407,10 +408,11 @@ footer p>a {
 
   #hero .avatar {
     order: -1;
+    width: 150px;
   }
 
   section {
-    padding: 1em 2em;
+    padding: 1em;
   }
 
   .experience-card {

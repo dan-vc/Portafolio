@@ -1,10 +1,12 @@
 import Chartjs from "./icons/ChartJS";
 import CSS from "./icons/Css";
+import { Donut } from "./icons/Donut";
 import Gsap from "./icons/Gsap";
 import HTML5 from "./icons/Html5";
 import JavaScript from "./icons/JavaScript";
 import Laravel from "./icons/Laravel";
 import Mysql from "./icons/Mysql";
+import MysqlWordmark from "./icons/MysqlWordmark";
 import Php from "./icons/Php";
 import Microsoftsqlserver from "./icons/SqlServer";
 import Tailwindcss from "./icons/Tailwind";
@@ -18,6 +20,31 @@ export default function Proyects() {
     <section id='proyectos'>
       <div className="container">
         <h2>Proyectos</h2>
+
+        <ProyectCard
+          url="https://app-gestion-tareas.free.nf/"
+          githubUrl='https://github.com/dan-vc/academy-one-app'
+          img='/img/taskflow-thumb.png'
+          title='Aplicación de Gestión de Tareas - TaskFlow'
+          content='Participé en el desarrollo de un sistema de gestión de tareas para estudiantes, profesionales y equipos. Diseñé y desarrollé una interfaz moderna basada en Laravel (Blade + Alpine.js), enfocada en la experiencia de usuario y una navegación intuitiva. Implementé un diseño completamente responsive para garantizar una visualización fluida tanto en móviles como en desktop.'
+        >
+          <Tag>
+            <Laravel />
+            Laravel
+          </Tag>
+          <Tag>
+            <Php />
+            PHP
+          </Tag>
+          <Tag>
+            <Tailwindcss />
+            Tailwind CSS
+          </Tag>
+          <Tag>
+            <Mysql />
+            MySQL
+          </Tag>
+        </ProyectCard>
 
         <ProyectCard
           githubUrl='https://github.com/dan-vc/academy-one-app'
@@ -55,6 +82,14 @@ export default function Proyects() {
           content='Landing page experimental desarrollada para demostrar el uso básico de Three.js, integrando modelos 3D y animaciones en el navegador. Las transiciones y animaciones están gestionadas con GSAP, aportando fluidez y control sobre la interacción visual dentro de una experiencia web simple y moderna.'
         >
           <Tag>
+            <HTML5 />
+            HTML5
+          </Tag>
+          <Tag>
+            <CSS />
+            CSS
+          </Tag>
+          <Tag>
             <Threejs />
             Three.js
           </Tag>
@@ -65,6 +100,36 @@ export default function Proyects() {
           <Tag>
             <JavaScript />
             JavaScript
+          </Tag>
+        </ProyectCard>
+
+        <ProyectCard
+          url='https://sistema-interno-polleria-suarez.netlify.app'
+          githubUrl='https://github.com/dan-vc/sistema-interno-polleria-suarez'
+          figmaUrl="https://www.figma.com/design/U0x2jc9Ana6pf8g5iZeZ7K/Sistema-de-gesti%C3%B3n---Poller%C3%ADa-Suarez?node-id=0-1&t=0hmTelfE1JbQ5hvU-1"
+          img='/img/sistema-gestion-suarez-thumb.png'
+          title='Sistema de Gestión de Pollería Suárez'
+          content='Diseñé y desarrollé la interfaz completa de un Sistema de Gestión de Inventario, Pedidos y Contabilidad, utilizando HTML, CSS y JavaScript puro. El objetivo fue construir un frontend modular, responsive y funcional que sirviera como base para su futura integración con un backend real. Implementé dashboards, formularios dinámicos y gráficos interactivos, creando una experiencia clara y fluida para el usuario.'
+        >
+          <Tag>
+            <HTML5 />
+            HTML5
+          </Tag>
+          <Tag>
+            <CSS />
+            CSS
+          </Tag>
+          <Tag>
+            <JavaScript />
+            JavaScript
+          </Tag>
+          <Tag>
+            <Donut />
+            SweetAlert2
+          </Tag>
+          <Tag>
+            <Chartjs />
+            Chart.js
           </Tag>
         </ProyectCard>
 
