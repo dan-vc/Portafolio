@@ -11,10 +11,10 @@ export default function Hero() {
         <div className='description'>
           <h1>Hola, soy Daniel</h1>
           <p>
-            <strong>Desarrollador web</strong> con enfoque en backend usando <u>Laravel, PHP y MySQL</u>, experiencia en <u>WordPress</u>, desarrollo de temas personalizados y <u>Bricks Builder</u>. Con conocimientos en <u>HTML, CSS, Tailwind, Git</u> y bases en <u>React y Angular</u>
+            <strong>Desarrollador web full-stack</strong> con experiencia en <u>Laravel, PHP y MySQL</u>, así como en la creación de interfaces modernas con <u>HTML, CSS, Tailwind, JavaScript</u> y herramientas visuales como <u>Bricks Builder</u>. He trabajado en proyectos reales que van desde el diseño y análisis, desarrollo frontend, lógica backend y despliegue.
             <br />
             <br />
-            Además, cuento con experiencia básica en <u>Three.js</u>, creando y animando modelos 3D para integrarlos en interfaces web interactivas. Apasionado por crear soluciones eficientes, bien estructuradas y por seguir aprendiendo nuevas tecnologías.
+            También cuento con conocimientos en React y Angular, y experiencia en animaciones 3D con <u>Three.js</u>. Me enfoco en crear soluciones limpias, eficientes y escalables, manteniendo una mentalidad constante de aprendizaje.
           </p>
         </div>
         <img src="/img/pf-picture.jpeg" alt="Avatar Image" className='avatar' />
