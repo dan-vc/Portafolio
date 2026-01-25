@@ -22,6 +22,38 @@ export default function Proyects() {
       <div className="container">
         <h2>Proyectos</h2>
 
+        {/* Academy One */}
+        <ProyectCard
+          url="https://academy-one.free.nf"
+          githubUrl='https://github.com/dan-vc/academy-one-app'
+          figmaUrl="https://www.figma.com/design/V1a5jORwonXtcJoT65GlNh/Academy-One-App?node-id=0-1&t=xUycFUOUxZsI5iZH-1"
+          img='/img/academy-one-thumb.png'
+          title='Academy One App'
+          content='Desarrollé un sistema web de Gestión Académica con Laravel y SQL Server, que permite administrar alumnos, docentes, cursos y matrículas desde una plataforma centralizada. Implementé una API RESTful, arquitectura MVC, autenticación segura y una interfaz diseñada en Figma, enfocada en una experiencia UX/UI moderna y eficiente.'
+        >
+          <Tag>
+            <Laravel />
+            Laravel
+          </Tag>
+          <Tag>
+            <Php />
+            PHP
+          </Tag>
+          <Tag>
+            <Microsoftsqlserver />
+            SQL Server
+          </Tag>
+          <Tag>
+            <Tailwindcss />
+            Tailwind CSS
+          </Tag>
+          <Tag>
+            <Chartjs />
+            Chart.js
+          </Tag>
+        </ProyectCard>
+
+        {/* Aplicación de gestión de tareas */}
         <ProyectCard
           url="https://app-gestion-tareas.free.nf/"
           githubUrl='https://github.com/dan-vc/academy-one-app'
@@ -55,35 +87,7 @@ export default function Proyects() {
           </Tag>
         </ProyectCard>
 
-        <ProyectCard
-          githubUrl='https://github.com/dan-vc/academy-one-app'
-          figmaUrl="https://www.figma.com/design/V1a5jORwonXtcJoT65GlNh/Academy-One-App?node-id=0-1&t=xUycFUOUxZsI5iZH-1"
-          img='/img/academy-one-thumb.png'
-          title='Academy One App'
-          content='Desarrollé un sistema web de Gestión Académica con Laravel y SQL Server, que permite administrar alumnos, docentes, cursos y matrículas desde una plataforma centralizada. Implementé una API RESTful, arquitectura MVC, autenticación segura y una interfaz diseñada en Figma, enfocada en una experiencia UX/UI moderna y eficiente.'
-        >
-          <Tag>
-            <Laravel />
-            Laravel
-          </Tag>
-          <Tag>
-            <Php />
-            PHP
-          </Tag>
-          <Tag>
-            <Microsoftsqlserver />
-            SQL Server
-          </Tag>
-          <Tag>
-            <Tailwindcss />
-            Tailwind CSS
-          </Tag>
-          <Tag>
-            <Chartjs />
-            Chart.js
-          </Tag>
-        </ProyectCard>
-
+        {/* Code arquitect - Three.js */}
         <ProyectCard
           url='https://codearquitect-threejs.netlify.app/'
           img='/img/code-arquitect-thumb.png'
@@ -112,6 +116,7 @@ export default function Proyects() {
           </Tag>
         </ProyectCard>
 
+        {/* Sistema interno para pollería suarez */}
         <ProyectCard
           url='https://sistema-interno-polleria-suarez.netlify.app'
           githubUrl='https://github.com/dan-vc/sistema-interno-polleria-suarez'
@@ -142,7 +147,8 @@ export default function Proyects() {
           </Tag>
         </ProyectCard>
 
-        <ProyectCard
+        {/* Sistema de control de asistencia */}
+        {/* <ProyectCard
           githubUrl='https://github.com/dan-vc/sistema_control_asistencia_mvc'
           img='/img/sistema-control-asistencia.png'
           title='Sistema de Control de Asistencia - MVC'
@@ -168,8 +174,9 @@ export default function Proyects() {
             <Mysql />
             MySQL
           </Tag>
-        </ProyectCard>
+        </ProyectCard> */}
 
+        {/* FrontendMentor projects */}
         {/* <ProyectCard
           githubUrl='https://www.frontendmentor.io/profile/dan-vc'
           img='/img/frontend-mentor.jpg'
