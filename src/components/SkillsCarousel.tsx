@@ -15,6 +15,10 @@ import Gsap from "./icons/Gsap";
 import HTML5 from "./icons/Html5";
 import MysqlWordmark from "./icons/MysqlWordmark";
 import Git from "./icons/Git";
+import { React } from "./icons/React";
+import { Redux } from "./icons/Redux";
+import { StyledComponents } from "./icons/StyledComponents";
+import { TypeScript } from "./icons/TypeScript";
 
 const skills = [
     Chartjs,
@@ -28,9 +32,13 @@ const skills = [
     Laravel,
     MysqlWordmark,
     Php,
+    React,
+    Redux,
     Microsoftsqlserver,
+    StyledComponents,
     Tailwindcss,
     Threejs,
+    TypeScript,
 ];
 
 export default function SkillsCarousel() {
