@@ -9,9 +9,13 @@ import JavaScript from "./icons/JavaScript";
 import Laravel from "./icons/Laravel";
 import Mysql from "./icons/Mysql";
 import Php from "./icons/Php";
+import { React } from "./icons/React";
+import { Redux } from "./icons/Redux";
 import Microsoftsqlserver from "./icons/SqlServer";
+import { StyledComponents } from "./icons/StyledComponents";
 import Tailwindcss from "./icons/Tailwind";
 import Threejs from "./icons/ThreeJS";
+import { TypeScript } from "./icons/TypeScript";
 import ProyectCard from "./ProyectCard";
 import Tag from "./Tag";
 
@@ -21,6 +25,36 @@ export default function Proyects() {
     <section id='proyectos'>
       <div className="container">
         <h2>Proyectos</h2>
+
+        {/* Academy One */}
+        <ProyectCard
+          url="https://kds-dan-vc.netlify.app/"
+          githubUrl='https://github.com/dan-vc/kitchen-display-system-idbi'
+          img='/img/kds-thumb.png'
+          title='KDS – Prueba Técnica / Proyecto Frontend'
+          content='Este proyecto fue desarrollado como una prueba técnica para demostrar mis habilidades en desarrollo frontend. Se trata de una interfaz moderna y responsiva, implementada con React, Styled Components y Redux para el manejo de estago Global que simula un Kitchen Display System (KDS).'
+        >
+          <Tag>
+            <React />
+            React
+          </Tag>
+          <Tag>
+            <StyledComponents />
+            Styled Components
+          </Tag>
+          <Tag>
+            <Redux />
+            Redux
+          </Tag>
+          <Tag>
+            <CSS />
+            CSS
+          </Tag>
+          <Tag>
+            <TypeScript />
+            TypeScript
+          </Tag>
+        </ProyectCard>
 
         {/* Academy One */}
         <ProyectCard
