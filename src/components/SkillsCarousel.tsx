@@ -19,8 +19,10 @@ import { React } from "./icons/React";
 import { Redux } from "./icons/Redux";
 import { StyledComponents } from "./icons/StyledComponents";
 import { TypeScript } from "./icons/TypeScript";
+import { Angular } from "./icons/Angular";
 
 const skills = [
+    Angular,
     Chartjs,
     CSS,
     Figma,
