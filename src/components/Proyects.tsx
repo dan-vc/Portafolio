@@ -32,7 +32,7 @@ export default function Proyects() {
           githubUrl='https://github.com/dan-vc/kitchen-display-system-idbi'
           img='/img/kds-thumb.png'
           title='KDS – Prueba Técnica / Proyecto Frontend'
-          content='Este proyecto fue desarrollado como una prueba técnica para demostrar mis habilidades en desarrollo frontend. Se trata de una interfaz moderna y responsiva, implementada con React, Styled Components y Redux para el manejo de estago Global que simula un Kitchen Display System (KDS).'
+          content='Este proyecto fue desarrollado como una prueba técnica para demostrar mis habilidades en desarrollo frontend. Se trata de una interfaz moderna y responsiva, implementada con React, Styled Components y Redux para el manejo de estado Global que simula un Kitchen Display System (KDS).'
         >
           <Tag>
             <React />
